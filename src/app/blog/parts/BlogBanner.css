@@ -1,0 +1,57 @@
+.blog-banner {
+    position: relative;
+    background-image: url('/assets/blogbg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .blog-banner-content {
+    text-align: center;
+  }
+  
+  .blog-banner-content h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+  }
+  
+  .blog-banner-content p {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    font-family: Poppins, sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-banner {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  
+    .blog-banner-content h1 {
+      font-size: 28px;
+    }
+  
+    .blog-banner-content p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      height: 150px; /* Adjust height for very small screens */
+    }
+  
+    .banner-content h1 {
+      font-size: 24px;
+    }
+  
+    .banner-content p {
+      font-size: 12px;
+    }
+  }

@@ -1,0 +1,106 @@
+
+
+/* SectionWithImage.module.css */
+.container {
+  display: flex;
+  align-items: flex-start; /* Align items at the start */
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.content {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.image {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.title {
+  margin: 0; /* Remove default margin */
+  color: black;
+  font-size: 30px;
+}
+
+.contentBody {
+  margin-top: 2px; /* Decrease spacing between title and content */
+  flex-grow: 1;
+  font-size: 16px;
+  color: #3e3e3e;
+
+
+  font-family: "Poppins";
+  line-height: 26px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+.contentBody ul {
+  columns: 2;
+  column-gap: 20px;
+}
+
+.contentBody li {
+  break-inside: avoid;
+  padding-bottom: 10px;
+}
+
+.whiteBackground{
+  background-color: white;
+}
+
+.readMoreButton{
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-content: center !important;
+  background-color: #ffbc13;
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 35px;
+  padding: 15px 30px;
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: 25px;
+}
+
+.readMoreButton:hover {
+ color:#fff;
+ background-color: #00174d;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  .content,
+  .image {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .contentBody ul {
+    columns: 1;
+  }
+}

@@ -1,0 +1,44 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .card-grid-card {
+    border: 1px solid orange;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+  }
+  
+  .card-heading {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #161616;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 27px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+  
+  .card-content {
+    /* font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e; */
+   
+
+    font-family: 'Poppins', sans-serif;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: #3e3e3e;
+    font-size: 16px;
+  }
+  

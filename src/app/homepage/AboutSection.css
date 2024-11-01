@@ -1,0 +1,165 @@
+/* 
+     .about-section {
+      display: flex;
+      align-items: stretch; 
+      justify-content: center;
+      padding: 50px;
+      background-color: #fff;
+      min-height: 50vh;
+    }
+    
+    .about-image {
+      flex: 1;
+      max-width: 50%;
+      position: relative; 
+    }
+    
+    .about-content-container {
+      flex: 1;
+      max-width: 50%;
+      background-color: #eeeeee;
+      display: flex;
+      align-items: center; 
+      justify-content: center; 
+    }
+    
+    .about-content {
+      padding: 30px;
+    }
+    
+    .about-content h3 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      margin-top: -15px;
+    }
+    
+    .about-content p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    .contact-button {
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      align-content: center !important;
+      background-color: #ffbc13;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 35px;
+      padding: 10px 25px;
+      margin-top: 10px;
+    }
+    
+    @media (max-width: 820px) {
+      .about-section {
+        flex-direction: column;
+        padding: 20px;
+        min-height: auto; 
+      }
+    
+      .about-image,
+      .about-content-container {
+        width: auto;
+        max-width: 100%;
+        flex: none; 
+        height: auto; 
+      }
+    
+      .about-content-container {
+        padding: 10px;
+      }
+    
+      .about-content {
+        padding: 10px;
+      }
+    }
+    
+     */
+
+     .about-section {
+      display: flex;
+      align-items: stretch; /* Ensure children stretch to the same height */
+      justify-content: center;
+      padding: 50px;
+      background-color: #fff;
+      min-height: 50vh; /* Ensures the section has a minimum height */
+    }
+    
+    .about-image {
+      flex: 1;
+      position: relative; /* Needed for the Image component in Next.js to work correctly */
+      max-width: 50%;
+    }
+    
+    .about-content-container {
+      flex: 1;
+      max-width: 50%; /* Make it equal to the about-image to ensure equal height */
+      background-color: #eeeeee;
+      display: flex; /* Flexbox to center content */
+      align-items: center; /* Center content vertically */
+      justify-content: center; /* Center content horizontally */
+    }
+    
+    .about-content {
+      padding: 30px;
+    }
+    
+    .about-content h3 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      margin-top: -15px;
+    }
+    
+    .about-content p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    .contact-button {
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      align-content: center !important;
+      background-color: #ffbc13;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 35px;
+      padding: 10px 25px;
+      margin-top: 10px;
+    }
+    
+    @media (max-width: 820px) {
+      .about-section {
+        flex-direction: column;
+        padding: 20px;
+        min-height: auto; /* Remove the minimum height for mobile */
+      }
+    
+      .about-image,
+      .about-content-container {
+        width: auto;
+        max-width: 100%;
+        flex: none; /* Prevent flex-grow to allow proper stacking */
+        height: auto; /* Allow content to determine the height */
+      }
+    
+      .about-image {
+        height: 300px; /* Adjust height as necessary for responsiveness */
+      }
+    
+      .about-content-container {
+        padding: 10px;
+      }
+    
+      .about-content {
+        padding: 10px;
+      }
+    }
+    

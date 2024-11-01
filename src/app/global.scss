@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import './variables.scss';
+
+body {
+  font-family: $font-family-primary;
+  background-color: $color-background;
+  color: $color-text;
+  font-size: $font-size-base;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-primary;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/* Apply box-sizing to all elements for consistency */
+*, *::before, *::after {
+  box-sizing: inherit;
+}

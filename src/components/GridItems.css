@@ -1,0 +1,73 @@
+
+   .gridItemsContainer {
+    padding: 40px 60px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .gridItemsContainer h2 {
+    font-family: Poppins;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    color: #161616;
+    font-size: 36px;
+  }
+  
+  .gridItemsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .gridItem {
+    display: flex;
+    /* align-items: center; */
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .gridItem img {
+    margin-right: 20px;
+    
+  }
+  
+  .textContent {
+    text-align: left;
+  }
+  
+  .textContent h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: #161616;
+  }
+  
+  .textContent p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .gridItemsGrid {
+      grid-template-columns: 1fr; 
+      gap: 20px; 
+    }
+  
+    .gridItem {
+      flex-direction: column;
+    }
+  
+    .gridItem img {
+      margin-bottom: 20px;
+      width: 160px;
+      height: auto;
+      align-items: center;
+    }
+  
+    .textContent {
+      text-align: center;
+    }
+  }
+  
