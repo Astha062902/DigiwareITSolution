@@ -57,7 +57,7 @@
 // src/components/Footer.tsx
 
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import Image from 'next/image';
 
 const Footer: React.FC = () => {
