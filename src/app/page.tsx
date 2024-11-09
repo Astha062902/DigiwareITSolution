@@ -13,7 +13,7 @@ import LatestNews from './homepage/LatestNews';
 import OurClients from './homepage/OurClients';
 import Callback from './homepage/Callback';
 import Footer from '@/components/footer'
-import './HomePage.css';
+import './homePage.css';
 
 const HomePage: React.FC = () => {
   return (
