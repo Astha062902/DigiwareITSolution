@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './Footer.css';
+import './footer.css';
 import Image from 'next/image';
 
 const Footer: React.FC = () => {
