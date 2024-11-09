@@ -20,15 +20,19 @@
 
 ### **Home Page**
 The homepage introduces Digiware’s key offerings and client testimonials, encouraging users to explore services. The layout is organized with feature components to present Digiware's mission and core services.
-
-### **Services Page**
-Dedicated to listing Digiware’s IT solutions, this page uses reusable service components to display each offering with a title, description, and visual. Adding a new service is as simple as extending the list and calling the component.
+![Home Page](images/HomePage.jpeg)
 
 ### **About Us Page**
 The About page showcases Digiware’s mission, vision, and history. Structured with modular layout components, this page presents the company’s story and values.
+![About Us](images/About.jpeg)
+
+### **Services Page**
+Dedicated to listing Digiware’s IT solutions, this page uses reusable service components to display each offering with a title, description, and visual. Adding a new service is as simple as extending the list and calling the component.
+![Services](images/Services.jpeg)
 
 ### **Contact Us Page**
 A responsive form lets users easily get in touch with Digiware. The contact component is designed to handle submissions efficiently and route inquiries to appropriate channels.
+![Contact Us](images/ContactUs.jpeg)
 
 ## **How to Add New Content**
 
