@@ -24,10 +24,11 @@ const Header: React.FC = () => {
           <nav className="nav">
             <Link href="/" className="nav-link"><div className="home-icon"><Image src="/assets/home.png" width={20} height={20} alt="arrow"/></div>HOME</Link>
             <Link href="/about" className="nav-link">ABOUT</Link>
-            <div className="nav-dropdown">
-              <Link href="/services" className="nav-link">SERVICES</Link>
+             <Link href="/services" className="nav-link">SERVICES</Link>
+{/*             <div className="nav-dropdown">
+              <Link href="/services" className="nav-link">SERVICES<div className="dropdown-arrow"><Image src="/assets/dropdown-arrow.png" width={8} height={8} alt="arrow"/></div></Link>
             <div className="dropdown-arrow"><Image src="/assets/dropdown-arrow.png" width={8} height={8} alt="arrow"/></div>
-{/*               <div className="dropdown-content">
+               <div className="dropdown-content">
                 <div className="nav-dropdown">
                   <Link href="/services/software-dev" className="dropdown-link">SOFTWARE DEVELOPMENT</Link>
                   <div className="dropdown-content">
@@ -38,7 +39,7 @@ const Header: React.FC = () => {
                     <Link href="/services/software-dev#big-data" className="dropdown-link">BIG DATA SERVICES</Link>
                     <Link href="/services/software-dev#mixed-reality" className="dropdown-link">MIXED REALITY DEVELOPMENT</Link>
                   </div>
-                </div> */}
+                </div> 
                 <div className="nav-dropdown">
                   <Link href="/services/web-dev" className="dropdown-link">WEB DEVELOPMENT</Link>
                   <div className="dropdown-content">
@@ -75,7 +76,7 @@ const Header: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <Link href="/blog" className="nav-link">BLOG</Link>
             <Link href="/contact-us" className="nav-link">CONTACT US</Link>
           </nav>
